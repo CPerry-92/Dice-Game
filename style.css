@@ -1,0 +1,30 @@
+body {
+  width: 800px;
+  margin: auto;
+  font-family: Arial;
+  font-size: 1.1rem;
+}
+
+.play-area {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-section {
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 50px;
+}
+
+#p1-header,
+#p2-header {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}

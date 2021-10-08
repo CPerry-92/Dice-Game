@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    <!-- Heading and Game Instructions -->
+    <h1>Dice Game</h1>
+    <hr>
+    <h2>First to 20 points</h2>
+    <p>If you roll a 1 your score resets to 0</p>
+    <hr>
+    <p><strong>Instructions</strong>:</p>
+    <ul>
+        <li><strong>ROLL</strong>: The number rolled is added to your score. Roll as many times as you like, but roll a 1 and your score resets to 0.</li>
+        <li><strong>END TURN</strong>: End your turn and add your turn points to your total.</li>
+    </ul>
+    <!-- Play Area -->
+    <div class="play-area"></div>
+    <!-- P1 -->
+    <div class="player-section">
+        <div id="p1-header" class="active">
+            P1 - Total Points: <span id="p1-points">0</span>
+        </div>
+        <hr>
+        <div>
+            <p>Turn Points: <span id="p1-turn-points">0</span></p>
+            <p><img id= "p1-dice-img" src="/dice1.png"></p>
+            <p><button id="p1-roll">Roll</button> <button id="p1-hold">End Turn</button></p>
+        </div>
+    </div>
+     <!-- P2 -->
+    <div class="player-section">
+        <div id="p2-header" class="active">
+            P2 - Total Points: <span id="p2-points">0</span>
+        </div>
+        <hr>
+        <div>
+            <p>Turn Points: <span id="p2-turn-points">0</span></p>
+            <p><img id= "p2-dice-img" src="/dice1.png"></p>
+            <p><button id="p2-roll">Roll</button> <button id="p2-hold">End Turn</button></p>
+        </div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
